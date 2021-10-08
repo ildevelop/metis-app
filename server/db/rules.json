@@ -1,0 +1,128 @@
+{
+  "students": {
+    "0": {
+      "status": "pass",
+      "message": "The table has a Primary Key on the column(s): StudentID",
+      "info": "Check whether the table has a Primary Key"
+    },
+    "1": {
+      "status": "failed",
+      "message": "The table has a Primary Key on the column(s): StudentID",
+      "info": "Check whether the table has columns with deprecated data types"
+    },
+    "2": {
+      "status": "failed",
+      "message": "the index “IDX_StudentCity” has high fragmentation (0.85%)",
+      "info": "Check whether the indexes are not fragmented",
+      "priority": "high"
+    }
+  },
+  "teachers": {
+    "1": {
+      "status": "failed",
+      "message": "The table has a Primary Key on the column(s): StudentID",
+      "info": "Check whether the table has columns with deprecated data types"
+    },
+    "2": {
+      "status": "failed",
+      "message": "the index “IDX_StudentCity” has high fragmentation (0.85%)",
+      "info": "Check whether the indexes are not fragmented",
+      "priority": "high"
+    },
+    "3": {
+      "status": "failed",
+      "message": "Warning! The Primary Key has 7 columns. This is a very high number. Consider using a new column of type INT or GUID as a Primary Key.",
+      "info": "Check whether the Primary Key uses many columns",
+      "priority": "high"
+    }
+  },
+  "engineers": {
+    "0": {
+      "status": "pass",
+      "message": "The table has a Primary Key on the column(s): StudentID",
+      "info": "Check whether the table has a Primary Key"
+    },
+    "1": {
+      "status": "failed",
+      "message": "The table has a Primary Key on the column(s): StudentID",
+      "info": "Check whether the table has columns with deprecated data types"
+    },
+    "2": {
+      "status": "failed",
+      "message": "the index “IDX_StudentCity” has high fragmentation (0.85%)",
+      "info": "Check whether the indexes are not fragmented",
+      "priority": "high"
+    },
+    "3": {
+      "status": "failed",
+      "message": "Warning! The Primary Key has 7 columns. This is a very high number. Consider using a new column of type INT or GUID as a Primary Key.",
+      "info": "Check whether the Primary Key uses many columns",
+      "priority": "high"
+    }
+  },
+  "developers": {
+    "0": {
+      "status": "pass",
+      "message": "The table has a Primary Key on the column(s): StudentID",
+      "info": "Check whether the table has a Primary Key"
+    },
+    "1": {
+      "status": "failed",
+      "message": "The table has a Primary Key on the column(s): StudentID",
+      "info": "Check whether the table has columns with deprecated data types"
+    },
+    "2": {
+      "status": "failed",
+      "message": "the index “IDX_StudentCity” has high fragmentation (0.85%)",
+      "info": "Check whether the indexes are not fragmented",
+      "priority": "high"
+    },
+    "3": {
+      "status": "failed",
+      "message": "Warning! The Primary Key has 7 columns. This is a very high number. Consider using a new column of type INT or GUID as a Primary Key.",
+      "info": "Check whether the Primary Key uses many columns",
+      "priority": "high"
+    }
+  },
+  "interns": {
+    "0": {
+      "status": "pass",
+      "message": "The table has a Primary Key on the column(s): StudentID",
+      "info": "Check whether the table has a Primary Key"
+    },
+
+    "3": {
+      "status": "failed",
+      "message": "Warning! The Primary Key has 7 columns. This is a very high number. Consider using a new column of type INT or GUID as a Primary Key.",
+      "info": "Check whether the Primary Key uses many columns",
+      "priority": "high"
+    }
+  },
+  "designers": {
+    "3": {
+      "status": "failed",
+      "message": "Warning! The Primary Key has 7 columns. This is a very high number. Consider using a new column of type INT or GUID as a Primary Key.",
+      "info": "Check whether the Primary Key uses many columns",
+      "priority": "high"
+    }
+  },
+  "products": {
+    "1": {
+      "status": "failed",
+      "message": "The table has a Primary Key on the column(s): StudentID",
+      "info": "Check whether the table has columns with deprecated data types"
+    },
+    "2": {
+      "status": "failed",
+      "message": "the index “IDX_StudentCity” has high fragmentation (0.85%)",
+      "info": "Check whether the indexes are not fragmented",
+      "priority": "high"
+    },
+    "3": {
+      "status": "failed",
+      "message": "Warning! The Primary Key has 7 columns. This is a very high number. Consider using a new column of type INT or GUID as a Primary Key.",
+      "info": "Check whether the Primary Key uses many columns",
+      "priority": "high"
+    }
+  }
+}
